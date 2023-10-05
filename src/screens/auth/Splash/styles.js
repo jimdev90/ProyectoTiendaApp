@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
         marginVertical: 54
     },
     title: {
-        fontSize: 40,
+        fontSize: 30,
         fontWeight: 'bold',
         textAlign: 'center'
     },

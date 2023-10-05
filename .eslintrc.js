@@ -1,15 +1,10 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: '@react-native-community',
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   rules: {
     'prettier/prettier': 0,
-    'comma-dangle': ['error', {
-      'arrays': 'never',
-      'objects': 'never',
-      'imports': 'never',
-      'exports': 'never',
-      'functions': 'never'
-    }]
   },
   'overrides': [
     {
@@ -18,8 +13,8 @@ module.exports = {
         // ******** add ignore rules here *********
         'react/no-unescaped-entities': 'off',
         'react/display-name': 'off',
-        'react/prop-types': 'off'
-      }
-    }
-  ]
+        'react/prop-types': 'off',
+      },
+    },
+  ],
 };

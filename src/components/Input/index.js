@@ -22,6 +22,6 @@ const Input = ({ label, placeholder, isPassword }) => {
             </View>
         </View>
     );
-}
+};
 
 export default React.memo(Input);
